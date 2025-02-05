@@ -1,4 +1,3 @@
-import React from "react";
 import { useProjects } from "../hooks/useProjects";
 import { useModal } from "../hooks/useModal";
 import { usePagination } from "../hooks/usePagination";
