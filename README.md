@@ -1,8 +1,60 @@
-# React + Vite
+# Project Grid Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a responsive grid-based application for displaying project cards. It includes features such as custom pagination, an image slider for project photos, and a fullscreen modal slider for viewing images in detail. The project is built using React and Vite and deployed on Vercel.
 
-Currently, two official plugins are available:
+### Features:
+- Responsive grid layout for project cards.
+- Pagination to browse through projects.
+- Image slider for project photos.
+- Fullscreen modal slider for viewing images in detail.
+- Error handling and loading states.
+- Clean and modular component structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Deployed Application
+You can view the live application here: [Project Grid Card](https://project-grid-card.vercel.app/)
+
+---
+
+## Tech Stack
+- **React**: Frontend framework for building UI components.
+- **Vite**: Fast build tool for modern web projects.
+- **CSS Modules**: Scoped styling for components.
+- **Vercel**: Deployment platform for frontend applications.
+
+---
+
+## Installation and Local Development
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v16 or higher)
+- npm (v7 or higher)
+
+### Steps
+1. **Clone the repository**:
+   ```bash
+   git clone git@github.com:HaidaDaniel/project-grid-card.git
+   ```
+2. **Navigate to the project directory:**:
+   ```bash
+   cd project-grid-card
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Set up environment variables: Create a .env file in the root of the project and add the**
+   ```bash
+   VITE_API_URL=your_api_url
+   VITE_ACCESS_KEY=your_access_key
+   VITE_SECRET_KEY=your_secret_key
+   ```
+5. **Start the development server:**
+   ```bash
+      npm run dev
+   ```
+   The application will be available at http://localhost:5173.
+
