@@ -28,11 +28,6 @@ You can view the live application here: [Project Grid Card](https://project-grid
 
 Follow these steps to run the project locally:
 
-### Prerequisites
-Ensure you have the following installed:
-- Node.js (v16 or higher)
-- npm (v7 or higher)
-
 ### Steps
 1. **Clone the repository**:
    ```bash
